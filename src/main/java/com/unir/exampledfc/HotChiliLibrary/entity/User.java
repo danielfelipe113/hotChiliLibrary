@@ -1,9 +1,12 @@
 package com.unir.exampledfc.HotChiliLibrary.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+
+import java.util.List;
 
 @Entity
 @Data
@@ -16,5 +19,8 @@ public class User {
 
     private String name;
     private String email;
-    private String password;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<Rent> rents;
 }
