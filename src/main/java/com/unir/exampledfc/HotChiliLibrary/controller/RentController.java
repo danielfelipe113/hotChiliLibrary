@@ -4,12 +4,14 @@ import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentCreateDTO;
 import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentDTO;
 import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentUpdateDTO;
 import com.unir.exampledfc.HotChiliLibrary.service.RentService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Tag(name = "Rent Controller", description = "Rent Controller Endpoints")
 @RequestMapping("/rent")
 public class RentController {
     private final RentService rentService;

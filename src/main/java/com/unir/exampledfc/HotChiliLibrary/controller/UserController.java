@@ -3,12 +3,14 @@ package com.unir.exampledfc.HotChiliLibrary.controller;
 
 import com.unir.exampledfc.HotChiliLibrary.entity.User;
 import com.unir.exampledfc.HotChiliLibrary.service.UserService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@Tag(name = "User Controller", description = "User Controller Endpoints")
 @RequestMapping("/user")
 public class UserController {
     private final UserService userService;

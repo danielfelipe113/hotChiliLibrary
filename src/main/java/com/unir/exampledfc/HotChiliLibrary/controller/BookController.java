@@ -2,6 +2,7 @@ package com.unir.exampledfc.HotChiliLibrary.controller;
 
 import com.unir.exampledfc.HotChiliLibrary.dto.Book.Book;
 import com.unir.exampledfc.HotChiliLibrary.service.RentService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @RestController
+@Tag(name = "Book Controller", description = "Book Controller Endpoints")
 @RequestMapping("/books")
 public class BookController {
     private final RentService rentService;
