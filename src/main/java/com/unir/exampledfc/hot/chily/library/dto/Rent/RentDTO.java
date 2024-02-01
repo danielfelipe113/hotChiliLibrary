@@ -1,8 +1,8 @@
-package com.unir.exampledfc.HotChiliLibrary.dto.Rent;
+package com.unir.exampledfc.hot.chily.library.dto.Rent;
 
 
-import com.unir.exampledfc.HotChiliLibrary.entity.Rent;
-import com.unir.exampledfc.HotChiliLibrary.entity.User;
+import com.unir.exampledfc.hot.chily.library.entity.Rent;
+import com.unir.exampledfc.hot.chily.library.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

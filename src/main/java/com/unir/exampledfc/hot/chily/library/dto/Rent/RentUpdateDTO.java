@@ -1,4 +1,4 @@
-package com.unir.exampledfc.HotChiliLibrary.dto.Rent;
+package com.unir.exampledfc.hot.chily.library.dto.Rent;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

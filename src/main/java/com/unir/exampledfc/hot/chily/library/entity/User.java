@@ -1,4 +1,4 @@
-package com.unir.exampledfc.HotChiliLibrary.entity;
+package com.unir.exampledfc.hot.chily.library.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

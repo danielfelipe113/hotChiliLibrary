@@ -1,6 +1,6 @@
-package com.unir.exampledfc.HotChiliLibrary;
+package com.unir.exampledfc.hot.chily.library;
 
-import com.unir.exampledfc.HotChiliLibrary.service.DatabaseSeeder;
+import com.unir.exampledfc.hot.chily.library.service.DatabaseSeeder;
 import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
-package com.unir.exampledfc.HotChiliLibrary.controller;
+package com.unir.exampledfc.hot.chily.library.controller;
 
 
-import com.unir.exampledfc.HotChiliLibrary.entity.User;
-import com.unir.exampledfc.HotChiliLibrary.service.UserService;
+import com.unir.exampledfc.hot.chily.library.entity.User;
+import com.unir.exampledfc.hot.chily.library.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

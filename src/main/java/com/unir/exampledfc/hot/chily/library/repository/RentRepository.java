@@ -1,6 +1,6 @@
-package com.unir.exampledfc.HotChiliLibrary.repository;
+package com.unir.exampledfc.hot.chily.library.repository;
 
-import com.unir.exampledfc.HotChiliLibrary.entity.Rent;
+import com.unir.exampledfc.hot.chily.library.entity.Rent;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

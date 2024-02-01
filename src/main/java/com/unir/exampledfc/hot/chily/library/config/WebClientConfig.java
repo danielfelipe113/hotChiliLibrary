@@ -1,4 +1,4 @@
-package com.unir.exampledfc.HotChiliLibrary.config;
+package com.unir.exampledfc.hot.chily.library.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

@@ -1,7 +1,7 @@
-package com.unir.exampledfc.HotChiliLibrary.controller;
+package com.unir.exampledfc.hot.chily.library.controller;
 
-import com.unir.exampledfc.HotChiliLibrary.dto.Book.Book;
-import com.unir.exampledfc.HotChiliLibrary.service.RentService;
+import com.unir.exampledfc.hot.chily.library.dto.Book.Book;
+import com.unir.exampledfc.hot.chily.library.service.RentService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.core.ParameterizedTypeReference;

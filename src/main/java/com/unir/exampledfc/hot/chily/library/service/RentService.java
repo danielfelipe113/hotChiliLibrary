@@ -1,14 +1,14 @@
-package com.unir.exampledfc.HotChiliLibrary.service;
+package com.unir.exampledfc.hot.chily.library.service;
 
 
-import com.unir.exampledfc.HotChiliLibrary.dto.Book.Book;
-import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentCreateDTO;
-import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentDTO;
-import com.unir.exampledfc.HotChiliLibrary.dto.Rent.RentUpdateDTO;
-import com.unir.exampledfc.HotChiliLibrary.entity.Rent;
-import com.unir.exampledfc.HotChiliLibrary.entity.User;
-import com.unir.exampledfc.HotChiliLibrary.repository.RentRepository;
-import com.unir.exampledfc.HotChiliLibrary.repository.UserRepository;
+import com.unir.exampledfc.hot.chily.library.dto.Book.Book;
+import com.unir.exampledfc.hot.chily.library.dto.Rent.RentCreateDTO;
+import com.unir.exampledfc.hot.chily.library.dto.Rent.RentDTO;
+import com.unir.exampledfc.hot.chily.library.dto.Rent.RentUpdateDTO;
+import com.unir.exampledfc.hot.chily.library.entity.Rent;
+import com.unir.exampledfc.hot.chily.library.entity.User;
+import com.unir.exampledfc.hot.chily.library.repository.RentRepository;
+import com.unir.exampledfc.hot.chily.library.repository.UserRepository;
 import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;

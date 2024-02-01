@@ -1,7 +1,7 @@
-package com.unir.exampledfc.HotChiliLibrary.service;
+package com.unir.exampledfc.hot.chily.library.service;
 
-import com.unir.exampledfc.HotChiliLibrary.entity.User;
-import com.unir.exampledfc.HotChiliLibrary.repository.UserRepository;
+import com.unir.exampledfc.hot.chily.library.entity.User;
+import com.unir.exampledfc.hot.chily.library.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

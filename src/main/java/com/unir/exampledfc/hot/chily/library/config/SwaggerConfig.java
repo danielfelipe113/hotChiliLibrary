@@ -1,4 +1,4 @@
-package com.unir.exampledfc.HotChiliLibrary.config;
+package com.unir.exampledfc.hot.chily.library.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
